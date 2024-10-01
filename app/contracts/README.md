@@ -8,15 +8,21 @@ Each booking has an id, the user address (the one making the booking), the hotel
 Functions:
 
 addHotel: Allows hotel owners to add a new hotel.
+
 bookHotel: Allows users to book a hotel. Users must send the value (equivalent to the price of one night).
+
 getHotel: Fetch details of a specific hotel.
+
 getUserBookings: Retrieves the bookings made by the user.
+
 updateHotel: Allows the hotel owner to update the hotel information.
+
+
 Events:
 
-HotelAdded: Emits whenever a new hotel is added to the system.
+     a. HotelAdded: Emits whenever a new hotel is added to the system.
 
-HotelBooked: Emits whenever a booking is confirmed.
+     b. HotelBooked: Emits whenever a booking is confirmed.
 
 ----------------------------------------------------------------------------------------------------
 
