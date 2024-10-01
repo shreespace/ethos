@@ -38,7 +38,9 @@ Compile the contract:
      npx hardhat compile
 
 2. Deploy the Contract: Create a deployment script in the contracts folder.
+   
 a. deploy.js:
+
 b. Run the deployment script:
 
          npx hardhat run scripts/deploy.js --network localhost
@@ -55,6 +57,7 @@ Compile the contract:
 2. Deploy the Contract: Create a migration file in the migrations folder.
 
      a. 2_deploy_contracts.js:
+   
      b. Run the deployment:
 
        truffle migrate
