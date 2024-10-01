@@ -20,9 +20,9 @@ updateHotel: Allows the hotel owner to update the hotel information.
 
 Events:
 
-     a. HotelAdded: Emits whenever a new hotel is added to the system.
+a. HotelAdded: Emits whenever a new hotel is added to the system.
 
-     b. HotelBooked: Emits whenever a booking is confirmed.
+ b. HotelBooked: Emits whenever a booking is confirmed.
 
 ----------------------------------------------------------------------------------------------------
 
@@ -35,13 +35,13 @@ Using Hardhat:
 Inside your project directory, create a contracts folder and save the HotelBooking.sol file in it.
 Compile the contract:
 
-npx hardhat compile
+     npx hardhat compile
 
 2. Deploy the Contract: Create a deployment script in the contracts folder.
+a. deploy.js:
+b. Run the deployment script:
 
-    a. deploy.js:
-    b. Run the deployment script:
-              npx hardhat run scripts/deploy.js --network localhost
+         npx hardhat run scripts/deploy.js --network localhost
 
 
 Using Truffle:
@@ -49,10 +49,12 @@ Using Truffle:
 
 Place the HotelBooking.sol contract inside the contracts folder.
 Compile the contract:
-               truffle compile
+
+          truffle compile
 
 2. Deploy the Contract: Create a migration file in the migrations folder.
 
      a. 2_deploy_contracts.js:
      b. Run the deployment:
-                     truffle migrate
+
+       truffle migrate
