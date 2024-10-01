@@ -1,0 +1,18 @@
+type Hotel @entity {
+  id: ID!
+  name: String!
+  location: String!
+  price: BigInt!
+}
+
+type Booking @entity {
+  id: ID!
+  user: User!
+  hotel: Hotel!
+  timestamp: BigInt!
+}
+
+type User @entity {
+  id: ID!
+  bookings: [Booking!]!
+}
