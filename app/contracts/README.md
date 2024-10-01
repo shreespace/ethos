@@ -15,7 +15,9 @@ updateHotel: Allows the hotel owner to update the hotel information.
 Events:
 
 HotelAdded: Emits whenever a new hotel is added to the system.
+
 HotelBooked: Emits whenever a booking is confirmed.
+
 ----------------------------------------------------------------------------------------------------
 
 How to Deploy the Contract
